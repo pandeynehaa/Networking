@@ -103,25 +103,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GS7-y8-zBI">
-                                <rect key="frame" x="39" y="182" width="375" height="20.5"/>
+                                <rect key="frame" x="39" y="57" width="375" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2St-DN-mSa">
-                                <rect key="frame" x="39" y="258.5" width="375" height="20.5"/>
+                                <rect key="frame" x="39" y="133.5" width="375" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adG-00-TsI">
-                                <rect key="frame" x="39" y="331" width="375" height="20.5"/>
+                                <rect key="frame" x="39" y="206" width="375" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rx-ER-2Sq">
-                                <rect key="frame" x="39" y="403.5" width="375" height="20.5"/>
+                                <rect key="frame" x="39" y="278.5" width="375" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -131,7 +131,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="adG-00-TsI" firstAttribute="top" secondItem="2St-DN-mSa" secondAttribute="bottom" constant="52" id="8nP-mC-3sJ"/>
-                            <constraint firstItem="GS7-y8-zBI" firstAttribute="top" secondItem="Qsh-TO-MNq" secondAttribute="top" constant="138" id="8r5-VD-Zl1"/>
+                            <constraint firstItem="GS7-y8-zBI" firstAttribute="top" secondItem="Qsh-TO-MNq" secondAttribute="top" constant="13" id="8r5-VD-Zl1"/>
                             <constraint firstItem="2St-DN-mSa" firstAttribute="top" secondItem="GS7-y8-zBI" secondAttribute="bottom" constant="56" id="9Kh-PD-bwT"/>
                             <constraint firstItem="Qsh-TO-MNq" firstAttribute="trailing" secondItem="2St-DN-mSa" secondAttribute="trailing" id="D6a-yk-Dt8"/>
                             <constraint firstItem="7rx-ER-2Sq" firstAttribute="top" secondItem="adG-00-TsI" secondAttribute="bottom" constant="52" id="KRN-op-Vfk"/>
